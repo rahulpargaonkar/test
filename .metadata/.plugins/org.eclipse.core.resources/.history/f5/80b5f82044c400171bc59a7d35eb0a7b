@@ -1,0 +1,13 @@
+package test;
+
+import com.tibco.be.ws.scs.impl.repo.svn.SVNIntegration;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		SVNIntegration git =new SVNIntegration();
+	
+
+	}
+
+}

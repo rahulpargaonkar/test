@@ -1,0 +1,69 @@
+package test;
+
+import com.tibco.be.ws.scs.SCSException;
+import com.tibco.be.ws.scs.impl.repo.AbstractRepositoryIntegration;
+
+public class GIT extends AbstractRepositoryIntegration{
+
+	@Override
+	protected boolean add(String arg0, String arg1, String arg2) throws SCSException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	protected void checkForAuthenticationFailure(String arg0) throws SCSException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected boolean checkout(String arg0, String arg1, String arg2, String arg3) throws SCSException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	protected String commit(String arg0, String arg1, String arg2, String arg3) throws SCSException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected String content(String arg0, String arg1, String arg2) throws SCSException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected boolean delete(String arg0, String arg1, String arg2) throws SCSException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	protected String[] list(String arg0, String arg1, String arg2, boolean arg3, String arg4, String arg5)
+			throws SCSException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected boolean revert(String arg0, String arg1, String arg2) throws SCSException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	protected boolean status(String arg0, String arg1, String arg2) throws SCSException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	protected boolean update(String arg0, String arg1, String arg2) throws SCSException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

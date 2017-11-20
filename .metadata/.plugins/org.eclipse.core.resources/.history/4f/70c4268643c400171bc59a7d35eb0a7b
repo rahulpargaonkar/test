@@ -1,0 +1,14 @@
+package test;
+
+import com.tibco.be.ws.scs.impl.repo.AbstractRepositoryIntegration;
+
+public class SVNIntegration extends AbstractRepositoryIntegration{
+	private static final String CHECKOUT_SUCCESS_MESSAGE = "Checked out revision";
+	private static final String COMMITED_REVISION_STRING = "Committed revision";
+	private static final String AUTHENTICATION_ERROR_CODE = "svn: E170001:";
+	private static final String ADD_SUCCESS_CHARACTER = "A";
+	private static final String DELETE_SUCCESS_CHARACTER = "D";
+	private static final String STATUS_UNVERSIONED_CHARACTER = "?";
+	private static final String REVERTED_SUCCESS_MESSAGE = "Reverted";
+	private static final String UPDATE_SUCCESS_MESSAGE = "Updating";
+}
